@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+background-image: url("https://npr.brightspotcdn.com/dims4/default/87b6d53/2147483647/strip/true/crop/565x348+0+3/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff2%2F91%2F76551511422dbcd917680518a583%2Fscreenshot-2023-07-20-235828.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  
+}
+
+p{
+ font-family: Fontfam;
+  
+}
+
+h1{
+  font-family: Fontfam2;
+color: #00ff59;
+  
+  
+}
+
+.header-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#add8ff;
+  padding: 20px;
+}
+
+.links-con {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  color: #e27373;
+  font-family: Fontfam2;
+  font-size: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.title-con {
+
+  display: flex;
+  justify-content: center;
+}
+.gallery-title {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.gallery-con {
+    width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  border: #e371a3 2px solid;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+
+.image {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.vid-con {
+  width: 900px;
+  height: 500px;
+  display: ;
+  justify-content: center;
+  margin: 40px;
+}
+
+@font-face {
+  font-family: Fontfam;
+  src: url(AvegaItalic.ttf);
+}
+
+
+@font-face {
+  font-family: Fontfam2;
+  src: url(Mastery.ttf);
+
+  
+  .image hover {
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+    transform: scale(1.5);
